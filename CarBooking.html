@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelApp</title>
+    <link rel="stylesheet" href="CarBooking.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header>
+        <h3>Welcome to Travel Management Solution</h3>
+        <a href="#" class="logo"><i class="bx bxs-home-smile"></i><span>Logo</span></a>
+        
+        <ul class="navbar">
+            <li><a href="Nav.html" class="active">Home</a></li>
+            <li><a href="CarBooking.html">Booking</a></li>
+            <li><a href="History.html">History</a></li>
+           
+        </ul>
+        
+        <div class="main">
+            <a href="#" class="user"><i class="bx bxs-user"></i>Sign in</a>
+            <a href="#" >Contact</a>
+            <div id="menu-icon"><i class="bx bx-menu"></i></div>   
+        </div>
+   
+</header>
+
+
+    <form action="/cab/book" method="post" class="hlo">
+        <fieldset>
+            <legend>@Book</legend>
+            <label for="from">From Location</label><br>
+            <input type="text" name="from" id="from" placeholder="Enter Your From Location"><br><br>
+            <label for="to">To Location</label><br>
+            <input type="text" name="to" id="to" placeholder="Enetr Your To Location"><br><br><br>
+            <label for="typeOfCab">Type of Cab</label><br>
+            <input type="number" name="type" id="typeOfCab" placeholder="Enetr Your Type of Cab"><br><br>
+            <div class="button">
+                <input type="submit" value="Submit">
+                <input type="reset"  value="Reset">
+            </div>
+        </fieldset>
+    </form>
+
+<script type="text/javascript" src="CarBooking.js" alt="TravelApp"></script> 
+</body>
+</html>
